@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* nav header */
+#header{
+	padding: 10px;
+	margin-top: 0px;
+	background: rgba(0,0,0,1.00);
+	/* position: fixed; 
+	z-index: 1;
+	width: 100%;*/
+	
+}
+
+div#header ul li{
+	display: inline;
+	list-style: none;
+	padding: 5px 0px;
+	margin-left: 5%;
+	
+}
+
+div#header ul li a{
+	color: white;
+	text-decoration: none !important;
+	font-weight: bold;
+	
+}
+
+div#header ul li a:hover{
+	color:blue;
+	
+}
+
+
+div#header ul li #logo{
+	
+	border: 1px grey;
+	float:left;
+	width: 5%;
+	height: 40px;
+	background: black;
+}
+
+/* end of nav header styling */
+
+/* contact header */
+#firstHeader{
+	background: whitesmoke;
+	height: 40px;
+		
+}
+
+ /* @media screen and (max-width: 768px){  
+	div#firstHeader a {padding: 20px 0px;}
+	}
+	
+	@media screen and (min-width: 768px){
+	   div#firstheader a {padding: 20px 15px;}
+	   }*/
+
+#firstHeader #headContact{ margin-top: 8px;}
+
+#firstHeader #headContact span{
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	color:black;
+	padding: 0px 50px;
+	font-weight: bold;
+}
+
+div.loginCart{
+	float: right;	
+}
+
+div.loginCart .cart{
+	margin: 0px 20px;
+	padding: 5px 40px;
+	font-size: 20px;
+	border-radius: 10%;
+}
+
+div.loginCart button{
+	padding: 5px 40px;
+	margin: 0px 30px;
+	border: 1px solid black;
+	border-radius: 10%;
+	background:orangered !important;
+	font-weight: bolder;
+	box-shadow: 2px 0px 2px black;
+}
+
+/* end of contact header */
+
+/* div#page{
+	min-height: 1550px;
+	
+} */
+/* WORK ON THIS STYLING LATER*************************************** */
+div#searchContainer{ position: relative; right: 0;}
+div#searchContainer input{ position: absolute; top:0px; width: 305px; background: whitesmoke; widows: 30%;}
+div#searchContainer button{ position: absolute; left:360px; background: orangered; font-size: 16px;}
+
+
+/*content parent div*/
+
+#sidebarCont{
+	padding: 10px;
+
+}
+
+/*side bar div */
+#sideBar{
+	width: 20%; 
+	position: absolute; 
+	left: 10px; 
+	background: whitesmoke;
+	height: 100vh;
+	padding: 10px;
+	
+}
+/*product list div */
+
+#proDiv{ 
+	width: 70%; 
+	position: relative;
+	left: 21%; 
+	min-height: 300px;
+}
+
+.itemDiv{
+	width: 20%; 
+	height: 250px; 
+	float: left;
+	margin: 15px 10px;
+	box-shadow: 0 0 2px black;
+	border-radius: 5px;
+	text-align: center; 
+}
+
+.itemDiv:hover{
+	background-color:whitesmoke; box-shadow: 0 0 5px #069;
+}
+.header-title{background-color: whitesmoke; box-shadow: 2px 6px 3px -2px #999; padding:7px 15px; text-transform: uppercase; color:#333;}
+.itemDiv h6{
+	color: black;
+	font-size: 14px;
+}
+
+.itemDiv .price{
+	color: black;
+	font-size: 14px;
+}
+
+#sideBar ul li{
+	list-style:none;
+	padding: 10px;
+	border-bottom: 1px solid grey;
+	
+}
+#sideBar ul li a{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+/*side bar ends here*/
+
+/* footer styling */
+
+
+
+#footer{ color: #ccc; background-color:black; font-size: 14px; text-align: center; margin-bottom: -5px;}
+
+#footer p{ color: #999999; margin-top: -5px; font-size: 12px;}
+
+div#tableContainer {
+	background: black;
+	 width: 100%; 
+}
+
+ /* td#footer1{ 
+	width: 30%;
+}
+
+
+td#footer3{
+	width: 30%;
+	background:black;
+}
+
+td#footer3 li {
+	display: inline;
+	text-decoration: none;
+	padding: 8px;
+	color: white;
+}
+
+ td#footer2 { 
+	width: 40%;
+}
+
+td#footer2 .input{
+	display: block;
+	width:300px;
+	padding: 5px;
+	margin-bottom: 5px;
+	background: whitesmoke;
+	margin-left:20px; 
+	
+}
+
+ footer ends here */
+
+/* productview */
+
+.productContainer{
+	float: left;
+}
+
+#imageContainer{
+	width: 45%;	 
+}
+
+#priceContainer{
+	width: 55%;
+}
+
+.buyBtn{
+	margin-top: 10px;
+}
+
+#add2Cart{
+	background: navy;
+	color: white;
+	font-weight: bold;
+}
+
+#checkout{
+	background: green;
+	color: white;
+	font-weight: bold;
+} 
+/* end of product view styling */
+
+/* header login page starts here 
+div#headerLogin form{
+	border: 1px solid grey;
+	box-shadow: 4px 4px 8px grey;
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	width: 35%;
+	margin: auto;
+
+}
+
+div#headerLogin label{
+    margin-left: 15px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+div#headerLogin input{
+    width: 70%;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 10px ;
+    box-shadow: 1px 1px 5px grey;
+}
+
+div#headerLogin input#headersubBtn{
+    margin-top: 30px;
+    width: 40%;
+    background: lightgrey;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 3px 3px 4px orangered;
+    border-radius: 20px !important;
+}
+
+div#headerLogin input#headersubBtn:hover{
+     background: orangered;
+    color: white;
+    box-shadow: 3px 3px 1px black;
+}
+ end of header login page */
